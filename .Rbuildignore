@@ -7,4 +7,4 @@ Makefile
 ^.*\.yml$
 ^\.lintr$
 ^\.vscode$
-inst/shinyapps-io
+shinyapps-io
