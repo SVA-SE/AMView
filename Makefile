@@ -32,3 +32,7 @@ lintr:
           -e "library(lintr)" \
           -e "lint_package(linters = with_defaults(object_name_linter = NULL, \
           object_usage_linter = NULL))"
+
+.PHONY: deploy
+deploy:
+	Rscript "shinyapps-io/"
