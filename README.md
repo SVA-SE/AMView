@@ -13,8 +13,7 @@ The source code as found at <https://github.com/SVA-SE/AMView> will see continue
 If you want to run the app with the pre-loaded artificial data, the easiest installation method is directly through R:
 
 ``` r
-library(devtools)
-install_github("SVA-SE/AMView")
+remotes::install_github("SVA-SE/AMView")
 ```
 
 You can then run the Shiny app like this:
