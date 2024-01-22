@@ -35,4 +35,4 @@ lintr:
 
 .PHONY: deploy
 deploy:
-	Rscript "shinyapps-io/"
+	Rscript "shinyapps-io/deploy.R"
