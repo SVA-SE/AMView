@@ -16,6 +16,7 @@ Imports:
     bslib,
     DT,
     eurostat,
+    giscoR,
     htmltools,
     leaflet,
     plotly,

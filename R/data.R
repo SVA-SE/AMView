@@ -334,7 +334,7 @@ get_spatial_data <- function(country_codes) {
     countries <- eurostat::get_eurostat_geospatial(
         output_class = "sf",
         nuts_level = "3",
-        make_valid = FALSE
+        resolution = "03"
     )
 
     stopifnot(all(country_codes %in% countries$CNTR_CODE))
